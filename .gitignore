@@ -1,0 +1,8 @@
+.env
+#bot.log
+#report.pdf
+#report.tex
+#assets
+src/__pycache__
+#test_connection.log
+#test_connection.py
