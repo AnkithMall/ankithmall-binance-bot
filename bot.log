@@ -1,0 +1,236 @@
+2025-10-02 03:01:24,767 [INFO] Market data: BTCUSDT current price = 117407.50
+2025-10-02 03:01:25,128 [ERROR] \u274c Error placing market order: Server error: 500
+2025-10-02 03:05:42,861 [INFO] Market data: BTCUSDT current price = 117346.60
+2025-10-02 03:05:43,212 [ERROR] \u274c Error placing market order: Server error: 500
+2025-10-02 03:14:29,375 [ERROR] API_KEY and API_SECRET must be set in environment variables.
+2025-10-02 03:14:35,036 [ERROR] API_KEY and API_SECRET must be set in environment variables.
+2025-10-02 03:14:45,849 [ERROR] API_KEY and API_SECRET must be set in environment variables.
+2025-10-02 03:18:39,808 [INFO] BTCUSDT Current Price: 117437.40
+2025-10-02 03:18:39,810 [ERROR] Error executing market order: 'DerivativesTradingUsdsFuturesRestAPI' object has no attribute 'account'
+Traceback (most recent call last):
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\market_orders.py", line 87, in <module>
+    account_resp = client.rest_api.account()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DerivativesTradingUsdsFuturesRestAPI' object has no attribute 'account'
+2025-10-02 03:20:11,067 [INFO] BTCUSDT Current Price: 117415.60
+2025-10-02 03:20:11,071 [ERROR] Error executing market order: 'DerivativesTradingUsdsFuturesRestAPI' object has no attribute 'futures_account_balance'
+Traceback (most recent call last):
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\market_orders.py", line 88, in <module>
+    balance_resp = client.rest_api.futures_account_balance()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DerivativesTradingUsdsFuturesRestAPI' object has no attribute 'futures_account_balance'
+2025-10-02 03:21:29,397 [INFO] BTCUSDT Current Price: 117361.00
+2025-10-02 03:21:29,401 [ERROR] Error executing market order: 'DerivativesTradingUsdsFuturesRestAPI' object has no attribute 'futures_account_balance'
+Traceback (most recent call last):
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\market_orders.py", line 89, in <module>
+    balance_resp = client.rest_api.futures_account_balance()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DerivativesTradingUsdsFuturesRestAPI' object has no attribute 'futures_account_balance'
+2025-10-02 03:22:31,579 [INFO] BTCUSDT Current Price: 117331.00
+2025-10-02 03:22:31,582 [ERROR] Error executing market order: 'DerivativesTradingUsdsFuturesRestAPI' object has no attribute 'account_information'
+Traceback (most recent call last):
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\market_orders.py", line 89, in <module>
+    response = client.rest_api.account_information()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DerivativesTradingUsdsFuturesRestAPI' object has no attribute 'account_information'
+2025-10-02 03:23:25,622 [INFO] BTCUSDT Current Price: 117385.00
+2025-10-02 03:23:25,628 [ERROR] Error executing market order: 'DerivativesTradingUsdsFuturesRestAPI' object has no attribute 'account_information'
+Traceback (most recent call last):
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\market_orders.py", line 89, in <module>
+    response = client.rest_api.account_information()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DerivativesTradingUsdsFuturesRestAPI' object has no attribute 'account_information'
+2025-10-02 03:26:32,710 [INFO] BTCUSDT Current Price: 117401.00
+2025-10-02 03:26:33,158 [ERROR] Error executing market order: 'AccountInformationV2ResponseAssetsInner' object has no attribute 'balance'
+Traceback (most recent call last):
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\market_orders.py", line 91, in <module>
+    usdt_balance = next((float(b.balance) for b in data.assets if b.asset == "USDT"), 0.0)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\market_orders.py", line 91, in <genexpr>
+    usdt_balance = next((float(b.balance) for b in data.assets if b.asset == "USDT"), 0.0)
+                               ^^^^^^^^^
+  File "C:\Users\user\miniconda3\envs\binance\Lib\site-packages\pydantic\main.py", line 991, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'AccountInformationV2ResponseAssetsInner' object has no attribute 'balance'
+2025-10-02 03:28:43,066 [INFO] BTCUSDT Current Price: 117431.40
+2025-10-02 03:28:43,463 [ERROR] Error executing market order: name 'account_data' is not defined
+Traceback (most recent call last):
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\market_orders.py", line 96, in <module>
+    for asset in account_data.assets:
+                 ^^^^^^^^^^^^
+NameError: name 'account_data' is not defined
+2025-10-02 03:29:06,517 [INFO] BTCUSDT Current Price: 117450.30
+2025-10-02 03:29:06,957 [INFO] USDT Futures Wallet Balance: 0.0
+2025-10-02 03:29:06,966 [INFO] ✅ Quantity validation passed
+2025-10-02 03:29:06,967 [INFO] ✅ Notional value validation passed
+2025-10-02 03:29:06,969 [ERROR] Insufficient USDT balance 0.0 for order notional 117.45030
+2025-10-02 03:29:06,970 [ERROR] Validation failed, order not placed
+2025-10-02 03:32:15,881 [INFO] BTCUSDT Current Price: 117676.90
+2025-10-02 03:32:16,247 [INFO] USDT Futures Wallet Balance: 0.0
+2025-10-02 03:32:16,247 [INFO] ✅ Quantity validation passed
+2025-10-02 03:32:16,262 [INFO] ✅ Notional value validation passed
+2025-10-02 03:32:16,263 [ERROR] Insufficient USDT balance 0.0 for order notional 117.67690
+2025-10-02 03:32:16,263 [ERROR] Validation failed, order not placed
+2025-10-02 04:54:31,387 [INFO] BTCUSDT Current Price: 118239.50
+2025-10-02 04:54:31,749 [INFO] USDT Futures Wallet Balance: 0.0
+2025-10-02 04:54:31,749 [INFO] ✅ Quantity validation passed
+2025-10-02 04:54:31,749 [INFO] ✅ Notional value validation passed
+2025-10-02 04:54:31,749 [ERROR] Insufficient USDT balance 0.0 for order notional 118.23950
+2025-10-02 04:54:31,749 [ERROR] Validation failed, order not placed
+2025-10-02 05:04:41,520 [ERROR] API_KEY and API_SECRET must be set in environment variables.
+2025-10-02 05:05:28,217 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-02 05:05:28,218 [ERROR] Insufficient USDT balance 0E-8 for order notional 116.500
+2025-10-02 05:05:28,218 [ERROR] Validation failed, order not placed.
+2025-10-02 05:18:12,434 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-02 05:18:12,435 [ERROR] Insufficient USDT balance 0E-8 for order notional 116.500
+2025-10-02 05:18:12,435 [ERROR] Validation failed, order not placed.
+2025-10-02 05:20:30,297 [INFO] BTC Futures Wallet Balance: 0E-8
+2025-10-02 05:20:30,297 [ERROR] Insufficient BTC balance 0E-8 for order quantity 0.001
+2025-10-02 05:20:30,297 [ERROR] Validation failed, order not placed.
+2025-10-03 01:34:07,509 [ERROR] Usage: python market_orders.py SYMBOL BUY/SELL QUANTITY
+2025-10-03 01:36:43,254 [ERROR] ❌ Error executing MARKET order: ConfigurationRestAPI.__init__() got an unexpected keyword argument 'base_url'
+Traceback (most recent call last):
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\main.py", line 61, in main
+    place_market_order(symbol, side, qty)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\market_orders.py", line 60, in place_market_order
+    config = ConfigurationRestAPI(
+        api_key=API_KEY,
+        base_url=DERIVATIVES_TRADING_USDS_FUTURES_REST_API_TESTNET_URL
+    )
+TypeError: ConfigurationRestAPI.__init__() got an unexpected keyword argument 'base_url'
+2025-10-03 01:37:38,567 [INFO] BTCUSDT Current Price: 120852.50
+2025-10-03 01:37:38,569 [ERROR] ❌ An unexpected error occurred: Either 'api_secret' or 'private_key' must be provided for signed requests.
+Traceback (most recent call last):
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\src\market_orders.py", line 99, in place_market_order
+    response = client.rest_api.account_information_v2()
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\venv\Lib\site-packages\binance_sdk_derivatives_trading_usds_futures\rest_api\rest_api.py", line 243, in account_information_v2
+    return self._accountApi.account_information_v2(recv_window)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\venv\Lib\site-packages\binance_sdk_derivatives_trading_usds_futures\rest_api\api\account_api.py", line 81, in account_information_v2
+    return send_request(
+        self._session,
+    ...<7 lines>...
+        signer=self._signer,
+    )
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\venv\Lib\site-packages\binance_common\utils.py", line 307, in send_request
+    cleaned_payload["signature"] = get_signature(configuration, query_string, signer)
+                                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Projects\internship-job\Primetrade.ai\venv\Lib\site-packages\binance_common\utils.py", line 243, in get_signature
+    raise ValueError(
+        "Either 'api_secret' or 'private_key' must be provided for signed requests."
+    )
+ValueError: Either 'api_secret' or 'private_key' must be provided for signed requests.
+2025-10-03 01:38:52,168 [INFO] BTCUSDT Current Price: 120817.80
+2025-10-03 01:38:52,316 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-03 01:38:52,319 [INFO] ✅ Quantity validation passed
+2025-10-03 01:38:52,319 [INFO] ✅ Notional value validation passed
+2025-10-03 01:38:52,319 [ERROR] Insufficient USDT balance 0E-8 for order notional 120.81780
+2025-10-03 01:38:52,320 [ERROR] Validation failed, order not placed
+2025-10-03 01:40:02,751 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-03 01:40:02,752 [ERROR] Insufficient USDT balance 0E-8 for order notional 50.00000
+2025-10-03 01:40:02,752 [ERROR] Validation failed, order not placed.
+2025-10-03 01:41:59,446 [INFO] 🔍 Starting order validation...
+2025-10-03 01:41:59,447 [INFO] ➡ Symbol: BTCUSDT, Side: N/A (set later), Qty: 0.001, Price: 50000.00
+2025-10-03 01:41:59,447 [INFO] ✅ Quantity check passed: 0.001
+2025-10-03 01:41:59,447 [INFO] ✅ Price check passed: 50000.00
+2025-10-03 01:42:00,191 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-03 01:42:00,192 [INFO] ➡ Required notional: 50.00000, Available balance: 0E-8
+2025-10-03 01:42:00,192 [ERROR] ❌ Validation failed: Insufficient USDT balance 0E-8 for order notional 50.00000
+2025-10-03 01:42:00,193 [ERROR] Validation failed, order not placed.
+2025-10-03 01:45:35,204 [INFO] BTC Futures Wallet Balance: 0E-8
+2025-10-03 01:45:35,204 [ERROR] Insufficient BTC balance 0E-8 for order quantity 0.001
+2025-10-03 01:45:35,205 [ERROR] Validation failed, order not placed.
+2025-10-03 01:49:28,869 [INFO] 🔍 Starting order validation...
+2025-10-03 01:49:28,869 [INFO] Symbol: BTCUSDT, Side: SELL, Qty: 0.001, Stop Price: 49000.00, Limit Price: 48950.00
+2025-10-03 01:49:28,869 [INFO] ✅ Quantity check passed
+2025-10-03 01:49:28,870 [INFO] ✅ Stop and Limit price checks passed
+2025-10-03 01:49:28,870 [INFO] Base Asset: BTC, Quote Asset: USDT
+2025-10-03 01:49:29,295 [INFO] BTC Futures Wallet Balance: 0E-8
+2025-10-03 01:49:29,296 [INFO] Checking SELL order: Need 0.001 BTC, Available 0E-8
+2025-10-03 01:49:29,296 [ERROR] ❌ Validation failed: Insufficient BTC balance 0E-8 for order quantity 0.001
+2025-10-03 01:49:29,297 [ERROR] Validation failed, order not placed.
+2025-10-03 01:56:10,730 [INFO] BTCUSDT Current Price: 120483.00
+2025-10-03 01:56:11,093 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-03 01:56:11,093 [ERROR] Insufficient balance 0E-8 for TWAP order notional 120483.00
+2025-10-03 01:56:11,094 [ERROR] TWAP order validation failed
+2025-10-03 01:58:05,639 [INFO] 🔍 Starting TWAP order validation...
+2025-10-03 01:58:05,639 [INFO] Symbol: BTCUSDT, Side: BUY, Total Qty: 1, Chunks: 10
+2025-10-03 01:58:05,639 [INFO] ✅ Total quantity check passed
+2025-10-03 01:58:05,640 [INFO] ✅ Chunks count check passed
+2025-10-03 01:58:06,040 [INFO] BTCUSDT Current Price: 120499.70
+2025-10-03 01:58:06,041 [INFO] ✅ Current price check passed: 120499.70
+2025-10-03 01:58:06,041 [INFO] Base Asset: BTC, Quote Asset: USDT
+2025-10-03 01:58:06,421 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-03 01:58:06,422 [INFO] Checking BUY: Required 120499.70 USDT, Available 0E-8
+2025-10-03 01:58:06,422 [ERROR] ❌ Validation failed: Insufficient USDT balance for TWAP order notional 120499.70
+2025-10-03 01:58:06,422 [ERROR] TWAP order validation failed
+2025-10-03 01:58:55,825 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-03 01:58:55,826 [ERROR] Insufficient USDT balance 0E-8 for grid total notional 5000.00
+2025-10-03 01:58:55,827 [ERROR] Grid order validation failed
+2025-10-03 02:00:02,132 [INFO] 🔍 Starting Grid order validation...
+2025-10-03 02:00:02,133 [INFO] Symbol: BTCUSDT, Lower Price: 45000, Upper Price: 55000, Steps: 10, Qty per Order: 0.01
+2025-10-03 02:00:02,133 [INFO] ✅ Price check passed
+2025-10-03 02:00:02,133 [INFO] ✅ Steps count check passed
+2025-10-03 02:00:02,134 [INFO] ✅ Quantity per order check passed
+2025-10-03 02:00:02,134 [INFO] ✅ Price range check passed
+2025-10-03 02:00:02,588 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-03 02:00:02,589 [INFO] Estimated total notional: 5000.00, Available USDT balance: 0E-8
+2025-10-03 02:00:02,589 [ERROR] ❌ Validation failed: Insufficient USDT balance 0E-8 for grid total notional 5000.00
+2025-10-03 02:00:02,589 [ERROR] Grid order validation failed
+2025-10-03 02:05:26,636 [INFO] 
+Usage:
+python src/main.py ORDER_TYPE [PARAMETERS]
+
+Order Types & Example Usage:
+1. Market Order:
+   python src/main.py MARKET SYMBOL SIDE QUANTITY
+2. Limit Order:
+   python src/main.py LIMIT SYMBOL SIDE QUANTITY LIMIT_PRICE
+3. Stop-Limit Order:
+   python src/main.py STOP_LIMIT SYMBOL SIDE QUANTITY STOP_PRICE LIMIT_PRICE
+4. TWAP Order:
+   python src/main.py TWAP SYMBOL SIDE TOTAL_QTY CHUNKS INTERVAL_SEC
+5. Grid Order:
+   python src/main.py GRID SYMBOL LOWER_PRICE UPPER_PRICE STEPS QTY_PER_ORDER INTERVAL_SEC
+
+2025-10-03 02:06:51,463 [INFO] 🔍 Validating OCO order: BTCUSDT BUY qty=0.001 TP=130000 STOP=129000
+2025-10-03 02:06:51,864 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-03 02:06:51,865 [ERROR] ❌ Insufficient USDT balance 0E-8 for order notional 130.000
+2025-10-03 02:06:51,865 [ERROR] Validation failed, OCO order not placed.
+2025-10-03 02:08:24,690 [INFO] 🔍 Starting OCO order validation for BTCUSDT BUY qty=0.001 TP=130000 STOP=129000
+2025-10-03 02:08:24,690 [INFO] ✅ Quantity check passed: 0.001 > 0
+2025-10-03 02:08:24,691 [INFO] ✅ Take-profit price check passed: 130000 > 0
+2025-10-03 02:08:24,691 [INFO] ✅ Stop price check passed: 129000 > 0
+2025-10-03 02:08:24,691 [INFO] ✅ Side check passed: BUY
+2025-10-03 02:08:24,692 [INFO] ✅ BUY logic check passed: TP(130000) > STOP(129000)
+2025-10-03 02:08:25,123 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-03 02:08:25,123 [INFO] 💰 Checking USDT balance: 0E-8 vs required notional 130.000
+2025-10-03 02:08:25,124 [ERROR] ❌ Validation failed: Insufficient USDT balance 0E-8 for order notional 130.000
+2025-10-03 02:08:25,124 [ERROR] Validation failed, OCO order not placed.
+2025-10-03 02:16:15,088 [INFO] 🔍 Starting order validation...
+2025-10-03 02:16:15,089 [INFO] ➡ Symbol: BTCUSDT, Side: N/A (set later), Qty: 0.001, Price: 50000.00
+2025-10-03 02:16:15,089 [INFO] ✅ Quantity check passed: 0.001
+2025-10-03 02:16:15,089 [INFO] ✅ Price check passed: 50000.00
+2025-10-03 02:16:15,565 [INFO] USDT Futures Wallet Balance: 0E-8
+2025-10-03 02:16:15,565 [INFO] ➡ Required notional: 50.00000, Available balance: 0E-8
+2025-10-03 02:16:15,566 [ERROR] ❌ Validation failed: Insufficient USDT balance 0E-8 for order notional 50.00000
+2025-10-03 02:16:15,566 [ERROR] Validation failed, order not placed.
+2025-10-03 02:18:50,782 [INFO] 🔍 Starting order validation...
+2025-10-03 02:18:50,782 [INFO] Symbol: BTCUSDT, Side: SELL, Qty: 0.001, Stop Price: 49000.00, Limit Price: 48950.00
+2025-10-03 02:18:50,782 [INFO] ✅ Quantity check passed
+2025-10-03 02:18:50,782 [INFO] ✅ Stop and Limit price checks passed
+2025-10-03 02:18:50,783 [INFO] Base Asset: BTC, Quote Asset: USDT
+2025-10-03 02:18:51,182 [INFO] BTC Futures Wallet Balance: 0E-8
+2025-10-03 02:18:51,183 [INFO] Checking SELL order: Need 0.001 BTC, Available 0E-8
+2025-10-03 02:18:51,183 [ERROR] ❌ Validation failed: Insufficient BTC balance 0E-8 for order quantity 0.001
+2025-10-03 02:18:51,184 [ERROR] Validation failed, order not placed.
+2025-10-03 02:18:57,155 [INFO] 🔍 Starting order validation...
+2025-10-03 02:18:57,156 [INFO] Symbol: BTCUSDT, Side: SELL, Qty: 0.001, Stop Price: 49000.00, Limit Price: 48950.00
+2025-10-03 02:18:57,156 [INFO] ✅ Quantity check passed
+2025-10-03 02:18:57,156 [INFO] ✅ Stop and Limit price checks passed
+2025-10-03 02:18:57,157 [INFO] Base Asset: BTC, Quote Asset: USDT
+2025-10-03 02:18:57,586 [INFO] BTC Futures Wallet Balance: 0E-8
+2025-10-03 02:18:57,587 [INFO] Checking SELL order: Need 0.001 BTC, Available 0E-8
+2025-10-03 02:18:57,587 [ERROR] ❌ Validation failed: Insufficient BTC balance 0E-8 for order quantity 0.001
+2025-10-03 02:18:57,587 [ERROR] Validation failed, order not placed.

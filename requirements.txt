@@ -1,0 +1,20 @@
+# Core Binance dependencies
+binance-common==3.1.1
+binance-sdk-derivatives-trading-usds-futures==1.6.0
+
+# For environment variables
+python-dotenv==1.0.1
+
+# Logging and structured output
+loguru==0.7.2
+
+# CLI utilities
+click==8.1.7
+
+# Utilities
+requests==2.32.3
+pytz==2024.2
+
+# Development tools
+black==25.1.0
+flake8==7.1.1
